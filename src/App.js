@@ -82,7 +82,7 @@ function App() {
   }, [])
 
   return (
-    <div className="App p-10">
+    <div className="App p-10 m-auto">
       <h1 className="text-5xl font-poppins my-4 p-2">Match the pictures on the cards!</h1>
       <button className="p-6 bg-blue-500 text-white rounded-lg hover:bg-blue-400" onClick={shuffleCards}>New Set of Cards</button>
 
